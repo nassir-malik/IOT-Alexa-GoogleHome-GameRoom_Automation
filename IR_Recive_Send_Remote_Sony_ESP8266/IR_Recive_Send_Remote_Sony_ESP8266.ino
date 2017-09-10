@@ -1,7 +1,8 @@
 /*
- * IRremote
+ * IRremote with ESP8266 NodeMcu
  * Game room automation part #1
  * Netmedias https://www.youtube.com/channel/UCn8v7OzXk7IqRdKZdf14yjA
+ * Developed by Nassir Malik
  */
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiMulti.h>
@@ -17,7 +18,7 @@ const char* ssid     = "enter your ssid"; //enter your ssid/ wi-fi(case sensitiv
 const char* password = "enter ssid password";     // enter ssid password (case sensitive)
 char host[] = "alexagoogleifttt.herokuapp.com"; //192.168.0.100 -enter your Heroku app name like  "alexagoogleifttt.herokuapp.com" 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-//
+// NodeMcu pinout
 IRsend irsend(4); //NodeMcu D2 = GPIO4
 IRrecv irrecv(14); ////NodeMcu D5 = GPIO14
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

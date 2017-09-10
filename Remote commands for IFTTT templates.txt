@@ -1,0 +1,32 @@
+Ok Google, power on tv
+{"device":"tv","value":"0", "query":"cmd"}
+
+Ok Google, power off tv
+{"device":"tv","value":"0", "query":"cmd"}
+
+Ok Google, turn tv volume up
+{"device":"tv","value":"1", "query":"cmd"}
+
+Ok Google, turn tv volume down
+{"device":"tv","value":"2", "query":"cmd"}
+
+Ok Google, mute tv
+{"device":"tv","value":"3", "query":"cmd"}
+
+Ok Google, unmute tv
+{"device":"tv","value":"3", "query":"cmd"}
+
+Ok Google, select input
+{"device":"tv","value":"4", "query":"cmd"}
+
+Ok Google, tv menu move up
+{"device":"tv","value":"5", "query":"cmd"}
+
+Ok Google, tv menu move down
+{"device":"tv","value":"6", "query":"cmd"}
+
+Ok Google, enter selection
+{"device":"tv","value":"6", "query":"cmd"}
+
+Ok Google, exit menu
+{"device":"tv","value":"8", "query":"cmd"}
