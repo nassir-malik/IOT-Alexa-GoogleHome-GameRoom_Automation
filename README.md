@@ -1,9 +1,9 @@
-# IOT-ESP8266-Alexa_Skills_Garage_Door (In-Progress)
+# IOT-Alexa-GoogleHome-GameRoom_Automation (In-Progress)
 
 Alexa skills to control ESP8266 without opening a router's port/firewal.
 
 
-In This project you will be able to control ESP8266 with Alexa skills without opening a firewall port or setuping a revers proxy.
+In This project you will be able to control You TV with Alexa & Google Home.
 
 1. Download this project and unzip.
 
@@ -15,9 +15,11 @@ In This project you will be able to control ESP8266 with Alexa skills without op
     arduinoWebSockets
 
     ArduinoJson
+    
+    IRremoteESP8266
 
-4. Update and flash your ESP8266 with "ESP8266/WebSocketClient/ESP8266_WebSocketClient/ESP8266_WebSocketClient.ino"
+4. Connect, Capture, Update and flash your NodeMcu sketch
 
-5. Create an Alexa skills and add Heroku app URL as an end-point
+5. Create IFTTT templates and add Heroku app URL as an end-point
 
 6. Test and enjoy.
