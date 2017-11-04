@@ -1,5 +1,7 @@
 # IOT-Alexa-GoogleHome-GameRoom_Automation (In-Progress)
 
+YouTube Tutorial -->https://www.youtube.com/watch?v=1X6FeuUiMUY
+
 Alexa skills to control ESP8266 without opening a router's port/firewal.
 
 
